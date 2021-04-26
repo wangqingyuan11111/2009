@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var obj={}
+        // obj.name="zhnagsan"
+        // obj.age=11
+        // obj.sex="牛牛牛"
+        // console.log(obj)
+
+
+        var arr=new Array()
+         function Person(name,age,sex){
+            this.name=name
+            this.age=age
+            this.sex=sex
+         }
+         Person.prototype.name="十四点三"
+         Person.prototype.age=11
+         Person.prototype.sex="保密"
+         var p1=new Person()
+         console.log(p1)
+         console.log(p1.name)
+         console.log(p1.age)
+         console.log(p1.sex)
+         var p2=new Person()
+         console.log(p2)
+         console.log(p2.name)
+         console.log(p2.age)
+         console.log(p2.sex)
+        var p3 = new Person("sjasd",16,"sdfs")
+        console.log(p3)
+    </script>
+</body>
+</html>
